@@ -1,0 +1,681 @@
+/********** Template CSS **********/
+:root {
+    --primary: #D81324;
+    --secondary: #0B2154;
+    --light: #F2F2F2;
+    --dark: #111111;
+}
+
+.fw-medium {
+    font-weight: 600 !important;
+}
+  
+
+
+/*** Navbar ***/
+
+.navbar-light .navbar-nav .nav-link {
+    margin-right: 30px;
+    color: #FFFFFF;
+    font-size: 15px;
+    outline: none;
+    padding: 15px 100px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--primary);
+}
+@media (max-width: 991.98px) {
+    .navbar-light .navbar-nav .nav-link  {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .navbar-light .navbar-nav {
+        border-top: 1px solid #EEEEEE;
+    }
+}
+
+.navbar-light .navbar-brand,
+.navbar-light a.btn {
+    height: 75px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--dark);
+    font-weight: 500;
+}
+.navdar-brand{
+    padding: 0px 100px;
+}
+
+
+/*** Header ***/
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+@media (max-width: 768px) {
+    #header-carousel .carousel-item {
+        position: relative;
+        min-height: 450px;
+    }
+    
+    #header-carousel .carousel-item img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.w-100 {
+    margin: 0px;
+}
+.iBannerFix{
+    position:absolute;
+    left:0px;
+    bottom:5px;
+    z-index: 99;
+    padding-left: 7%;
+    color: #fafafa;
+}
+.iBanner2{
+    position:absolute;
+    top: 10px;
+    left:0px;
+    z-index: 99;
+    padding-left: 7%;
+    color: #fafafa;
+}
+.text-in-banner {
+    color: #ffffff;
+}
+.text-in-banner:hover {
+    color: #ff1707;
+}
+/*** module ***/
+@media screen and (max-width: 600px) {
+    div.text-in-card {
+      display: none;
+    }
+  }
+@media screen and (max-width: 600px) {
+    div.text-in-card2 {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    div.text-in-card3 {
+      display: none;
+    }
+  }
+.text-in-card { 
+    position:absolute;
+    top: 10px;
+    left:0px;
+    z-index: 99;
+    padding: 5px 20px;
+}
+.text-in-card2{ 
+    position:absolute;
+    bottom:15px;
+    left:0px;
+    padding: 5px 20px;
+}
+.text-in-card3{ 
+    position:absolute;
+    bottom:15px;
+    left:0px;
+    padding: 5px 20px;
+}
+.textcard3{ 
+    color: #ffffff;
+}
+.textcard3:hover{ 
+    color: #ff0000;
+}
+.Modelsrow {
+    display: flex;
+    margin: 0px;
+}
+.Modelscol {
+    flex: 33.33%;
+    padding: 0px;
+    margin: 0px;
+}
+.buttonRed:hover {
+    color: #ff1707;
+    border: 1px solid #ff1707;
+}
+.buttonRed {
+    color: rgb(255, 255, 255);
+    display:inline-block;
+    padding:13px 23px;
+    font-size:15px;
+    border: 1px solid #ffffff;
+    background: none;
+}
+.buttonnear {
+    color: rgb(255, 255, 255);
+    padding:13px 32px;
+    font-size:15px;
+    border: 0px ;
+    background-color: #272727;
+    align-content: center;
+    display: block;
+    margin: auto;
+}
+.buttonnear:hover {
+    background-color: #ff1707;
+    color: #ffffff;
+}
+.buttonOwn {
+    color: black;
+    display:inline-block;
+    padding:14px 23px;
+    font-size:15px;
+    border: 0px solid;
+}
+.buttonOwn:hover {
+    background-color: #ff1707;
+    color: #ffffff;
+}
+.buttonSocial {
+    color: rgb(255, 255, 255);
+    padding:13px 20px;
+    font-size:15px;
+    border: 0px ;
+    background-color: #272727;
+}
+.buttonload {
+    text-align: right;
+    padding-right: 7%;
+}
+
+.buttonSocial:hover {
+    background-color: #ff1707;
+    color: #ffffff;
+}
+.buttonShare {
+    color: rgb(255, 255, 255);
+    padding:13px 100px;
+    font-size:15px;
+    border: 0px ;
+    background-color: #272727;
+    align-content: center;
+    display: block;
+    margin: 0;
+}
+.buttonShare:hover {
+    background-color: rgb(201, 4, 4);
+    color: #ffffff;
+}
+.btnF {
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color: #272727;
+    padding: 12px 16px; 
+    font-size: 16px;
+    cursor: pointer;
+    margin: 1px;
+}
+.btnF:hover {
+    color: rgb(255, 255, 255);
+    background-color: RoyalBlue;
+}
+.btnY {
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color: #272727;
+    padding: 12px 16px; 
+    font-size: 16px;
+    cursor: pointer;
+    margin: 1px;
+}
+.btnY:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(201, 4, 4);
+}
+.btnT {
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color: #272727;
+    padding: 12px 16px; 
+    font-size: 16px;
+    cursor: pointer;
+    margin: 1px;
+}
+.btnT:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 161, 248);
+}
+.btnP {
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color: #272727;
+    padding: 12px 16px; 
+    font-size: 16px;
+    cursor: pointer;
+    margin: 1px;
+}
+.btnP:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(201, 4, 4);
+}
+.btnI {
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color: #272727;
+    padding: 12px 16px; 
+    font-size: 16px;
+    cursor: pointer;
+    margin: 1px;
+}
+.btnI:hover {
+    color: rgb(255, 255, 255);
+    background-color: RoyalBlue;
+}
+.btnL {
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color: #272727;
+    padding: 12px 16px; 
+    font-size: 16px;
+    cursor: pointer;
+    margin: 1px;
+}
+.btnL:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(103, 136, 235);
+}
+/*** module ***/
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.carousel2 {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.box {
+    flex: 33.33%;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    padding: 0px;
+    margin: 0px;
+}
+
+.slick-prev, .slick-next {
+    background: url(../img//arrows.png);
+    width: 22px;
+    height: 33px;
+    position: absolute;
+    top: 30%;
+    display: block;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    z-index: 100;
+}
+
+.slick-prev {
+    background-position: 0px;
+    left: 0px;
+}
+
+.slick-next {
+    background-position: -22px;
+    right: 0px;
+}
+
+@media only screen and (max-width: 1180px) {
+    .carousel {
+        width: 90%;
+    }
+}
+.Discoverlink {
+    color: #000;
+}
+.Discoverlink:hover{
+    color: #f80000;
+}
+.Discoverrow {
+    padding-left: 7%;
+    padding-right: 10%;
+    width: 100%;
+}
+.hrfooter {
+    padding-top: 3%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.Buildrow {
+    padding-left: 7%;
+    padding-right: 10%;
+}
+/*** item 
+.item1 { 
+    grid-area: item1; 
+    object-fit: cover;
+    height: 450px;
+}
+.item2 { 
+    grid-area: item2; 
+    object-fit: cover;
+    height: 450px;
+}
+.item3 { 
+    grid-area: item3; 
+    object-fit: cover;
+    height: 450px;
+}
+.item4 { 
+    grid-area: item4; 
+    object-fit: cover;
+    height: 450px;
+}
+.item5 { 
+    grid-area: item5; 
+    object-fit: cover;
+    height: 450px;
+}
+.item6 { 
+    grid-area: item6; 
+    object-fit: cover;
+    height: 450px;
+}
+.item7 { 
+    grid-area: item7; 
+    object-fit: cover;
+    height: 450px;
+}
+.item8 { 
+    grid-area: item8; 
+    object-fit: cover;
+    height: 450px;
+}
+.item9 { 
+    grid-area: item9; 
+    object-fit: cover;
+    height: 450px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'item1 item1 item2 item3 item5 item5'
+    'item1 item1 item4 item4 item5 item5'
+    'item6 item7 item4 item4 item8 item9';
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5px;
+  padding: 10px;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+   item ***/
+  .container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-auto-rows: 100px 300px;
+    grid-gap: 10px;
+    grid-auto-flow: dense;
+  }
+  
+  .gallery-item{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .gallery-item .image{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .gallery-item .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    cursor: pointer;
+    transition:.5s ease-in-out;
+  }
+  
+  .gallery-item:hover .image img{
+    transform: scale(1.5);
+  }
+  
+  .gallery-item .text{
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 25px;
+    pointer-events: none;
+    z-index: 4;
+    transition: .3s ease-in-out;
+    -webkit-backdrop-filter: blur(5px) saturate(1.8);
+    backdrop-filter: blur(5px) saturate(1.8);
+  }
+  
+  .gallery-item:hover .text{
+    opacity: 1;
+    animation: move-down .3s linear;
+    padding: 1em;
+    width: 100%;
+  }
+  
+  .w-1{
+    grid-column: span 1;
+  }
+  
+  .w-2{
+    grid-column: span 2;
+  }
+  
+  .w-3{
+    grid-column: span 3;
+  }
+  
+  .w-4{
+    grid-column: span 4;
+  }
+  
+  .w-5{
+    grid-column: span 5;
+  }
+  
+  .w-6{
+    grid-column: span 6;
+  }
+  
+  .h-1{
+    grid-row: span 1;
+  }
+  
+  .h-2{
+    grid-row: span 2;
+  }
+  
+  .h-3{
+    grid-row: span 3;
+  }
+  
+  .h-4{
+    grid-row: span 4;
+  }
+  
+  .h-5{
+    grid-row: span 5;
+  }
+  
+  .h-6{
+    grid-row: span 6;
+  }
+  
+  @media screen and (max-width:500px){
+    .container{
+      grid-template-columns: repeat(1,1fr);
+    }
+    .w-1,.w-2,.w-3,.w-4,.w-5,.w-6{
+    grid-column:span 1;
+    }
+    
+    .h-1,.h-2,.h-3,.h-4,.h-5,.h-6{
+    grid-row: span 3;
+    }
+  }
+  
+  
+  
+  @keyframes move-down{
+  
+    0%{
+      top: 10%;
+    }
+    50%{
+      top: 35%;
+    }
+    100%{
+      top: 50%;
+    }
+  }
+   
+/*** span ***/
+.Models-headline span {
+    color: #000;
+    padding-left: 7%;
+}
+.module-grid {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    clear: both;
+    margin-top: 20px;
+}
+.near_you span {
+    color: #000;
+    padding-left: 7.14286%;
+    padding-right: 7.14286%;
+}
+.Social {
+    color: #000;
+    padding-left: 7.14286%;
+    padding-right: 7.14286%;
+}
+.Discover{
+    color: #000;
+    padding-left: 7.14286%;
+    padding-right: 7.14286%;
+}
+.BuildT{
+    color: #000;
+}
+.BuildT:hover{
+    color: #ff0000;
+    
+}
+/*** Footer ***/
+
+.copyright{
+    bottom:100px;
+    padding-left: 7.14286%;
+    padding-right: 7.14286%;
+}
+.copyright1{
+    padding-left: 7.14286%;
+    padding-right: 7.14286%;
+}
+.copyright2{
+    padding-left: 7.14286%;
+    padding-right: 7.14286%;
+}
+  .custom-select {
+    position: relative;
+    font-family: Arial;
+  }
+
+  .custom-select select {
+    display: none; /*hide original SELECT element:*/
+  }
+  
+  .select-selected {
+    background-color: #272727;
+  }
+  
+  /*style the arrow inside the select element:*/
+  .select-selected:after {
+    position: relative;
+    content: "";
+    top: 14px;
+    right: 0%;
+    left: 70px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /*point the arrow upwards when the select box is open (active):*/
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  
+  /*style the items (options), including the selected item:*/
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  /*style items (options):*/
+  .select-items {
+    position: absolute;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  /*hide the items when the select box is closed:*/
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #d80000;
+  }
